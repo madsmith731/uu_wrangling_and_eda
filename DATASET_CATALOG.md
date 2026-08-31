@@ -9,14 +9,12 @@ This catalog is based on:
 - local companion docs/codebooks
 - targeted web searches for likely upstream dataset pages
 
-Cleaning status is intentionally conservative:
+Cleaning status is:
 
 - `no`: looks like a raw or near-raw download/export
 - `mixed`: mostly upstream data, but converted, lightly renamed, trimmed, or reformatted
 - `yes`: clearly classroom-prepped, subsetted, aggregated, or feature-engineered
 - `unclear`: provenance/source is not pinned down confidently enough to say more
-
-Confidence is about provenance, not data quality.
 
 ## Main Catalog
 
@@ -85,11 +83,3 @@ These are not primary datasets themselves, but they explain or support the tabul
 | `cpr.txt` | no matching CSV in this directory | Dataset description for a CPR class example; the tabular file itself is not present here. |
 | `Effectiveness of Bystander Cardiopulmonary Resuscitation and Survival Following Out-of-Hospital Cardiac Arrest.pdf` | CPR/cardiac arrest teaching material | Source article or background reading; not a tabular dataset. |
 
-## Short Takeaways
-
-- `UCI` shows up clearly in `heart_failure_clinical_records_dataset.csv`, `zoo.csv`, `divorce/divorce_data.csv`, and `land_mines.csv`.
-- `NHANES` is clearly represented by `nhanes_data_17_18.csv` and `nhanes_meta_17_18.csv`, and both are already classroom-cleaned/merged.
-- `Kaggle/community mirrors` show up heavily in `USA_cars_datasets.csv`, `corporate_ratings.csv`, `college_completion.csv`, `crimebystatecombinedwithunemployment.csv`, and likely several of the homework-prepped derivatives.
-- `Official/public-sector data` is a large share of the directory too: DOE Section 117, NOAA weather, Iowa liquor sales, Virginia pretrial, EIA energy/electricity/rig data, SIPRI, and WIPO.
-- The files most clearly cleaned by you or for class are `airbnb_hw.csv`, `ames_prices.csv`, `car_prices.csv`, `craigslist_cville_cars.csv`, `electricity_data_validation.csv`, `pretrial_data.csv`, the MNIST Parquet set, both NHANES CSVs, `patents.csv`, `us_power_consumption.csv`, and `wages_hw.csv`.
-- The shakiest provenance calls are `brazil_default.csv`, `cars_hw.csv`, and `tuna.csv`; those are the ones I would label as inferred rather than fully verified if someone asks.

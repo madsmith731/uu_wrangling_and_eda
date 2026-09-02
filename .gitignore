@@ -1,3 +1,10 @@
 data.zip
 data/*
 .vscode
+lab_1/ForeignGifts_edu.csv
+DATASET_CATALOG.md
+eda.ipynb
+eda.slides.html
+get_data.py
+wrangling.ipynb
+wrangling.slides.html
